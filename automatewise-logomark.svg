@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="AutomateWise logomark">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="var(--zb-primary, #1F4FFF)" />
+      <stop offset="100%" stop-color="var(--zb-secondary, #00E0A4)" />
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="6.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="url(#grad)" />
+    </marker>
+  </defs>
+  <g transform="translate(0,0)">
+    <circle cx="100" cy="100" r="74" fill="none" stroke="rgba(15,23,42,0.06)" stroke-width="10"/>
+    <g fill="var(--zb-secondary, #00E0A4)">
+      <circle cx="100" cy="44" r="7"/>
+      <circle cx="51.5" cy="128" r="7"/>
+      <circle cx="148.5" cy="128" r="7"/>
+    </g>
+    <g fill="none" stroke="url(#grad)" stroke-width="12" stroke-linecap="round">
+      <path d="M100 44 Q 160 72 148.5 128" marker-end="url(#arrow)"/>
+      <path d="M148.5 128 Q 100 168 51.5 128" marker-end="url(#arrow)"/>
+      <path d="M51.5 128 Q 100 72 100 44" marker-end="url(#arrow)"/>
+    </g>
+  </g>
+</svg>
